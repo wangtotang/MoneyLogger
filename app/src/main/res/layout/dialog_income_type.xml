@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <GridView
+        android:id="@+id/gv_income_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:verticalSpacing="8dp"
+        android:layout_gravity="center"
+        android:stretchMode="columnWidth"
+        android:columnWidth="20dp"
+        android:layout_margin="8dp"
+        android:horizontalSpacing="10dp"/>
+
+</LinearLayout>

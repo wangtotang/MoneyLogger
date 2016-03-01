@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_time_actionbar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_time_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/base_size_title_text"
+            android:textColor="@color/base_color_text_white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_spinner_white"
+            android:layout_alignParentBottom="true"
+            android:padding="1dp"
+            android:layout_toRightOf="@id/tv_time_actionbar"/>
+
+</RelativeLayout>

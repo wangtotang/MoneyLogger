@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tang.mybase.ui.view.HeaderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/base_size_actionbar_height">
+
+</com.tang.mybase.ui.view.HeaderLayout>

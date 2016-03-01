@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget">
+
+    <Button
+        android:id="@+id/btn_backup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/btn_backup_bg_selector"
+        android:background="@color/base_color_transparent"
+        android:layout_marginLeft="@dimen/base_size_margin_left"
+        android:drawablePadding="3dp"
+        android:gravity="fill"
+        android:textColor="@drawable/btn_backup_textcolor_selector"
+        android:textSize="@dimen/base_size_title_text"/>
+
+</LinearLayout>

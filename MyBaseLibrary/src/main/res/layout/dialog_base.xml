@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/base_color_background"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_size_dialog_height"
+        android:background="@color/base_color_gray_light"
+        android:textSize="@dimen/base_size_title_text"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:textColor="@color/base_color_blue_light"
+        android:textStyle="bold" />
+
+
+    <View
+        android:id="@+id/v_dialog_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/base_color_blue_light"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/base_size_dialog_height"
+        android:textSize="@dimen/base_size_title_text"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/base_color_blue_light"
+        android:lineSpacingMultiplier="1.2" />
+
+    <LinearLayout
+        android:id="@+id/ll_custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_dialog_bottom_line"
+        style="@style/Line"/>
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/base_color_gray_light">
+
+        <Button
+            android:id="@+id/btn_dialog_negative_button"
+            style="@style/TextView.Black"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_dialog_selector"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/v_dialog_middle_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/base_color_gray" />
+
+        <Button
+            android:id="@+id/btn_dialog_positive_button"
+            style="@style/TextView.Black"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_dialog_selector"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="base_color_transparent">#00000000</color>
+    <color name="base_color_text_press">#66ffffff</color>
+    <color name="base_color_text_normal">#fffdfdfe</color>
+    <color name="base_color_text_black">#0f0f0f</color>
+    <color name="base_color_text_gray">#a6a6a6</color>
+    <color name="base_color_background">#fff1f3f6</color>
+    <color name="base_color_text_hint">#ffdddddd</color>
+    <color name="base_color_blue_light">#ff33b5e5</color>
+    <color name="base_color_gray_light">#dfdfdf</color>
+    <color name="base_color_gray">#cacaca</color>
+</resources>

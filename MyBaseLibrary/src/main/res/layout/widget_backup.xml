@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget">
+
+    <ImageButton
+        android:id="@+id/ib_backup"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:background="@color/base_color_transparent"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/content_description"
+        android:layout_marginLeft="@dimen/base_size_margin_left" />
+
+</LinearLayout>

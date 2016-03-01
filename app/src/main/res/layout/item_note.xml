@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_activity_icon"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="14dp"
+        android:contentDescription="@string/app_name"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/iv_line_vertical"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@color/base_color_tint_blue"
+        android:layout_toRightOf="@id/iv_activity_icon"
+        android:layout_marginLeft="14dp"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/iv_line_vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_weight="1000"
+            android:layout_marginLeft="36dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_activity_description"
+                style="@style/TextView"
+                android:textSize="20sp"
+                android:minWidth="60dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/base_color_text_black"
+                android:ellipsize="end"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/tv_activity_time"
+                style="@style/TextView"
+                android:textSize="12sp"
+                android:textColor="@color/base_color_text_gray" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_activity_amount"
+            style="@style/TextView"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_marginRight="18dp"
+            android:textColor="@color/base_color_text_black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/base_color_background">
+
+    <include
+        layout="@layout/include_common_action_bar"/>
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_report_type" />
+
+        <RelativeLayout
+            android:id="@+id/rl_report_type"
+            style="@style/Spinner">
+
+            <TextView
+                android:id="@+id/tv_report_type"
+                style="@style/TextView.Tips"
+                android:layout_centerVertical="true"
+                android:text="@string/select_activity_type" />
+
+            <ImageView
+                style="@style/SpinnerView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_report_start_time" />
+
+        <RelativeLayout
+            android:id="@+id/rl_report_start_time"
+            style="@style/Spinner">
+
+            <TextView
+                android:id="@+id/tv_report_start_time"
+                style="@style/TextView.Tips"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                style="@style/SpinnerView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_report_end_time" />
+
+        <RelativeLayout
+            android:id="@+id/rl_report_end_time"
+            style="@style/Spinner">
+
+            <TextView
+                android:id="@+id/tv_report_end_time"
+                style="@style/TextView.Tips"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                style="@style/SpinnerView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+</LinearLayout>

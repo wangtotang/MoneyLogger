@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBar">
+
+
+    <LinearLayout
+        android:id="@+id/action_bar_left"
+        style="@style/Widget"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|left">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_bar_middle"
+        style="@style/Widget"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_bar_right"
+        style="@style/Widget"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right">
+
+    </LinearLayout>
+
+</RelativeLayout>

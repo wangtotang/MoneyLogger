@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Fragment">
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_activity_time" />
+
+        <RelativeLayout
+            android:id="@+id/rl_budget_time"
+            style="@style/Spinner">
+
+            <TextView
+                android:id="@+id/tv_budget_time"
+                style="@style/TextView.Tips"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                style="@style/SpinnerView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_budget_type" />
+
+        <RelativeLayout
+            android:id="@+id/rl_budget_type"
+            style="@style/Spinner">
+
+            <TextView
+                android:id="@+id/tv_budget_type"
+                style="@style/TextView.Tips"
+                android:layout_centerVertical="true"
+                android:text="@string/calculate_by_type" />
+
+            <ImageView
+                style="@style/SpinnerView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+    <RelativeLayout
+        style="@style/Item">
+
+        <TextView
+            style="@style/TextView.SubTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/set_activity_amount" />
+
+        <EditText
+            android:id="@+id/et_budget_amount"
+            style="@style/EditText"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="21dp"
+            android:layout_centerVertical="true"
+            android:hint="@string/input_activity_amount_hint"
+            android:maxLength="9"
+            android:inputType="numberDecimal"/>
+
+    </RelativeLayout>
+
+    <View style="@style/Line"/>
+
+</LinearLayout>
